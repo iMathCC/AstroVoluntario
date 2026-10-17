@@ -43,6 +43,7 @@ public class SecurityConfig {
                                 "/auth/login",
                                 "/swagger-ui/**",       // Swagger UI
                                 "/swagger-ui.html",     // Swagger UI
+                                "/api-docs/**",
                                 "/v3/api-docs/**",      // Documentação
                                 "/v3/api-docs",         // Documentação
                                 "/swagger-resources/**",
