@@ -25,5 +25,4 @@ public class VoluntarioResponseDTO {
     private String disponibilidade;
     private List<String> habilidades;
     private List<String> causas;
-    private Double matchScore;
 }

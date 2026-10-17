@@ -50,3 +50,4 @@ db/migration/*__*.sql~
 
 # Outros comuns em Spring Boot
 /spring-boot-devtools.properties.env
+*.bak
