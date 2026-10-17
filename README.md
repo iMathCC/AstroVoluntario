@@ -135,16 +135,3 @@ cp .env.example .env          # ajuste DB_* e JWT_SECRET_KEY
 
 Projeto em desenvolvimento ativo. Próximos passos: GitHub Actions e deploy
 de referência.
-EOF
-echo "✅ README atualizado"
-
-echo ""
-echo "=== Conferindo seções principais ==="
-grep -nE "^## |^### " README.md
-
-echo ""
-echo "=== git status ==="
-git status
-```
-
----
