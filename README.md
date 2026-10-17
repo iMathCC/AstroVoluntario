@@ -134,5 +134,4 @@ cp .env.example .env          # ajuste DB_* e JWT_SECRET_KEY
 
 ## Status
 
-Projeto em desenvolvimento ativo. Próximos passos: GitHub Actions e deploy
-de referência.
+Projeto em desenvolvimento ativo. A API conta com testes automatizados, CI via GitHub Actions e ambiente Docker configurado. Próximo passo: deploy de referência.
