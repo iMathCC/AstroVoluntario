@@ -12,6 +12,7 @@ autenticação JWT, perfis geolocalizados e catálogo N:N de causas
 ![Flyway](https://img.shields.io/badge/Flyway-10-CC0200?logo=flyway&logoColor=white)
 ![Swagger](https://img.shields.io/badge/OpenAPI-Swagger-85EA2D?logo=swagger&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+[![CI](https://github.com/iMathCC/user-api/actions/workflows/ci.yml/badge.svg)](https://github.com/iMathCC/user-api/actions/workflows/ci.yml)
 
 </div>
 
