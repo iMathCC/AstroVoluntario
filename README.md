@@ -12,7 +12,7 @@ autenticação JWT, perfis geolocalizados e catálogo N:N de causas
 ![Flyway](https://img.shields.io/badge/Flyway-10-CC0200?logo=flyway&logoColor=white)
 ![Swagger](https://img.shields.io/badge/OpenAPI-Swagger-85EA2D?logo=swagger&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
-[![CI](https://github.com/iMathCC/user-api/actions/workflows/ci.yml/badge.svg)](https://github.com/iMathCC/user-api/actions/workflows/ci.yml)
+[![CI](https://github.com/iMathCC/AstroVoluntario/actions/workflows/ci.yml/badge.svg)](https://github.com/iMathCC/AstroVoluntario/actions/workflows/ci.yml)
 
 </div>
 
@@ -83,7 +83,7 @@ User (1) ── (1) Voluntario
 Sobe a API + PostgreSQL sem precisar instalar nada além de Docker.
 
 ```bash
-git clone https://github.com/iMathCC/user-api.git
+git clone https://github.com/iMathCC/AstroVoluntario.git
 cd user-api
 cp .env.example .env
 docker compose up --build
@@ -99,7 +99,7 @@ docker compose up --build
 Requer Java 17+ e PostgreSQL 16 rodando em `localhost:5432`.
 
 ```bash
-git clone https://github.com/iMathCC/user-api.git
+git clone https://github.com/iMathCC/AstroVoluntario.git
 cd user-api
 cp .env.example .env          # ajuste DB_* e JWT_SECRET_KEY
 ./mvnw spring-boot:run
